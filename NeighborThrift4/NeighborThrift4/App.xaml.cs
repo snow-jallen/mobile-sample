@@ -36,6 +36,7 @@ namespace NeighborThrift4
 			containerRegistry.RegisterForNavigation<ThirdPage, ThirdPageViewModel>();
 			containerRegistry.Register<IDataService, SqliteDataService>();
 			containerRegistry.Register<INotificationService, NotificationService>();
+			
 		}
     }
 }
